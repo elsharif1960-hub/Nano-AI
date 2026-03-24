@@ -34,7 +34,7 @@ if prompt := st.chat_input("تحدث مع نانو العالمي..."):
                 {"role": "system", "content": "Your name is Nano. Be a smart, friendly, and concise AI assistant. Respond in the user's language."},
                 *st.session_state.messages
             ],
-            model="llama3-8b-8192", # موديل سريع جداً
+            model="llama-3.3-70b-versatile", # موديل سريع جداً
         )
         answer = chat_completion.choices[0].message.content
         st.markdown(f'<div class="bot-bubble">{answer}</div>', unsafe_allow_html=True)
