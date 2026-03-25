@@ -15,7 +15,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-st.title("🤖 Nano Cloud")
+st.title("🤖 Nano Cloud- by Momin")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
