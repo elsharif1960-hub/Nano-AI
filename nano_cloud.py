@@ -5,7 +5,7 @@ from groq import Groq
 st.set_page_config(page_title="Nano AI ⚡", layout="centered")
 
 # ضع مفتاح الـ API هنا (سأعلمك لاحقاً كيف تخفيه للأمان)
-client = Groq(api_key="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")
+client = Groq(api_key="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")
 
 st.markdown("""
     <style>
